@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Noto Sans Mono', monospace;
+    background-color:#F5F5F5;
+}
+
+button {
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+input {
+    width: 11.5vw;
+    height: 2.4vh;
+    font-family: 'Noto Sans Mono', monospace;
+    transform: translateX(2.5vw);
+}
+button:hover {
+    background-color:#c9c9c9;
+    color: white;
+    cursor:pointer;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+.email_gumb {
+    width: 5vw;
+    transform: translateX(47.5vw);
+}
+
+#dodaj_gumb {
+    width: 5vw;
+    transform: translateX(2.5vw);
+    
+}
+
+.container {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+@media (min-width:320px)  {
+    #dodaj_gumb {
+        width: 11.5vw;
+    }
+    .email_gumb {
+        width: 16vw;
+    }
+    input {
+        width: 30vw;
+        height: 3vh;
+    }
+}
+@media (min-width:480px)  {
+    #dodaj_gumb {
+        width: 11.5vw;
+    }
+    .email_gumb {
+        width: 16vw;
+    }
+    input {
+        width: 30vw;
+        height: 3vh;
+    }
+ }
+
+ @media (min-width:1025px) {
+    #dodaj_gumb {
+        width: 5vw;
+        transform: translateX(2.5vw);
+        
+    }
+    .email_gumb {
+        width: 5vw;
+        transform: translateX(47.5vw);
+    }
+    input {
+        width: 11.5vw;
+        height: 2.4vh;
+        font-family: 'Noto Sans Mono', monospace;
+        transform: translateX(2.5vw);
+    }
+ }

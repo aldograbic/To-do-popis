@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="iconfinder-document03-1622833_121957.ico">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="script.js"></script>
+    <title>To-Do Lista</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do Lista</h1>
+        <div class="novi_task">
+            <input onkeypress="return enterKlik(event);" type="text" id="unos">
+            <button onclick="dodajGumb()" id="dodaj_gumb">Dodaj</span>
+        </div>
+        <br>
+        <ul id="popis_taskova"></ul>
+        <br>
+        <button class="email_gumb" onclick="location.href='mailto:aldo.grabic99@gmail.com?subject=To-Do Lista'">Pošalji na e-mail</button> 
+    </div>
+     
+</body>
+</html>

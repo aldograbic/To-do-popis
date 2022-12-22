@@ -1,0 +1,3 @@
+https://to-do-lista.000webhostapp.com/ - live stranica
+
+*opcionalno* nakon klika gumba email --> popis upisati u poruku e-maila --> poslati odma
